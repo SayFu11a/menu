@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Испытание: котогалерея на inline-block</title>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <link rel="stylesheet" href="./css/style.css" />
+   </head>
+   <body>
+      
+
+      <header class="header">
+         
+         </div>
+         <div class="header__wrapper">
+            
+            <div class="header__menu-burger">
+               <a href="#" class="header__link-burger">
+                  <span class="burger__icon icon"
+                     ><img id="image" src="./images/002.svg" class="burger__img"  onClick="imgsrc();"/></span
+               ></a>
+            </div>
+            <div class="header__logo">
+               <a>
+                  <span class=""><img src="./images/logo.svg" class="img" /></span
+               ></a>
+            </div>
+           
+            <div class="header__menu_left ">
+
+               <div class="header__search ">
+                  <span class="icon icon-mb">
+                     <img src="./images/003.png" class="img" />
+                     </span
+               ></a>
+               </div>
+            </div>
+         </div>
+      </header>
+
+      <main>
+         <div class="wrapper">
+            <div class="wrapper-tabs">
+            <div class="title__wrapper">
+               <h1 class="title">
+                  Ремонт техники
+               </h1>
+               <div class="header__menu_left display-none ">
+                  <div class="header__seatings title__item">
+                     <a class=" head-link title__item-text">
+                        <span >
+                           Оставить заявку
+                        </span>
+                        <span class="icon icon-mb">
+                       
+                        <img src="./images/02.svg" class="img" />
+                        </span
+                        >
+                     </a>
+                  </div>
+                  <div class="header__search title__item">
+                     <span class="title__item-text">
+                     Статус ремонта
+                  </span>
+                     <span class="icon icon-mb">
+                        <img src="./images/03.svg" class="img" />
+                        </span
+                  ></a>
+                  </div>
+               </div>
+            </div>
+           <div class="services-tabs">
+               <button class="services-tabs__item services-tabs__item_active">Услуги и сервисы</button>
+               <button class="services-tabs__item services-tabs__item_active">Корпоративным клиентам</button>
+               <button class="services-tabs__item services-tabs__item_active">Продавцам техники</button>
+               <button class="services-tabs__item services-tabs__item_active">Партнерам</button>
+               <button class="services-tabs__item services-tabs__item_active">Производителям</button>
+               <button class="services-tabs__item services-tabs__item_active">Наши сервисные центры</button>
+               <button class="services-tabs__item services-tabs__item_active">Контакты</button>
+            </div>
+         </div>
+          
+         <div class="fotter">
+            <div class="popup-menu">
+               <div class="popup-menu-wraper popup-menu__regular">
+                  <a>
+                  <span class="icon l-icon">
+                     <img src="./images/05.svg" class="img" />
+                     </span
+                     >
+                  </a>
+                  <a>
+                     <span class="icon l-icon">
+                        <img src="./images/04.svg" class="img" />
+                        </span
+                        >
+                     </a>
+                     <a>
+                        <span class="icon l-icon">
+                           <img src="./images/08.svg" class="img" />
+                           </span
+                           >
+                        </a>
+                     </div>
+               </div>
+               <div class="footer-info">
+                  <div class="footer-info--mail">mail@cps.com</div>
+                  <div class="footer-info--phone">8 800 890 8900</div>
+                  <div class="footer-info--lang">
+                     <span class="span">RU</span>
+                     <span class="span">EN</span>
+                     <span class="span">CH</span>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+         
+
+
+      </main>
+
+
+
+      <script>
+         document.querySelector('.header__link-burger').addEventListener('click', function() {
+             this.classList.toggle('burger-active');
+             document.querySelector('.popup-menu').classList.toggle('open');
+             
+         })
+     </script>
+   </body>
+</html>
