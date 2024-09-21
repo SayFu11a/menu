@@ -356,7 +356,7 @@ body {
         flex-grow: 0;
         flex-shrink: 2;
     }
-    .services-tabs{
-        margin-bottom: 0;
+   .services-tabs{
+        margin-bottom: 0 !important;
     }
 }
