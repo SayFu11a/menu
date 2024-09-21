@@ -344,3 +344,19 @@ body {
     cursor: pointer;
 
 }
+
+@media (max-width: 708px) {
+    .wrapper {
+      
+        min-height: 80vh
+       }
+
+       .wrapper-tabs {
+
+        flex-grow: 0;
+        flex-shrink: 2;
+    }
+    .services-tabs{
+        margin-bottom: 0;
+    }
+}
